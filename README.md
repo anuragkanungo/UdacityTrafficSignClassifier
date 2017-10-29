@@ -18,7 +18,33 @@ I looked into image translation, rotation and shearing (based on capturing the s
 
 ## Model Architecture
 
-I decided to use the default LeNet implementation 
+I decided to use the LeNet implementation and without augementation I was able to achieve around 85% accuracy and after data augementation the accuracy increased to around 90%. Therfore to prevent overfitting i added a dropout layer at then end and that helped to bump the accuracy to 94%.
 
 
+The LeNet architecture accepts a 32x32xC image as input, where C is the number of color channels. I am passing RGB color images there for the input size was 32*32*3.
+
+Layer 1: Convolutional. 
+Input shape: 32x32x3.
+RELU activation and Pooling.
+Output shape: 14x14x6.
+
+Layer 2: Convolutional. 
+Input shape: 14x14x6.
+RELU activation and Pooling and Flatten
+Output shape: 400.
+
+Layer 3: Fully Connected. 
+Input shape: 400.
+RELU activation 
+Output shape: 120.
+
+Layer 4: Fully Connected. 
+Input shape: 120.
+RELU activation and Dropout with keep_prob 0.5
+Output shape: 84.
+
+Layer 4: Fully Connected. 
+Input shape: 84.
+RELU activation and Dropout with keep_prob 0.5
+Output shape: 43.
 
