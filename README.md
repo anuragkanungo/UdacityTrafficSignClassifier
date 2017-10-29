@@ -45,6 +45,6 @@ Output shape: 84.
 
 Layer 5: Fully Connected.   
 Input shape: 84.  
-RELU activation and Dropout with keep_prob 0.5 . 
+RELU activation and Dropout with keep_prob 0.5 .   
 Output shape: 43.  (Num of labels)
 
