@@ -48,3 +48,28 @@ Input shape: 84.
 RELU activation and Dropout with keep_prob 0.5 .   
 Output shape: 43.  (Num of labels)
 
+
+## Model Training:
+
+20 Epochs were used with 64 batch size.  
+Adam optimizer with rate 0.001 and mean softmax cross entropy loss function was used.  
+
+The training gets above 93% accuracy on the validation data consistently after 5 epoch.  
+Previously without data augmentation and dropout in layer 4, the accuracy was limited to 90%.  
+Additionally, I tried adding translation and rotation but that didn't help with accuracy.
+
+## Test on New Images
+
+The trained model was run on 5 new images and it got 60% accuracy on those images. Although model didn't seem to be
+highly confident about those examples.
+
+For first example: 66.5% certain about ground truth.  
+For second example: 99% certain about some other class and almost 0% for ground truth . 
+For third example: 100% certain about ground truth . 
+For fourth example: 1% certain about ground truth only . 
+For fifth example: 82% certain about ground truth . 
+
+
+
+Further details are in the Ipython notebook in comments.
+
