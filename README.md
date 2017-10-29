@@ -23,28 +23,28 @@ I decided to use the LeNet implementation and without augementation I was able t
 
 The LeNet architecture accepts a 32x32xC image as input, where C is the number of color channels. I am passing RGB color images there for the input size was 32*32*3.
 
-Layer 1: Convolutional. 
-Input shape: 32x32x3.
-RELU activation and Pooling.
-Output shape: 14x14x6.
+Layer 1: Convolutional.  
+Input shape: 32x32x3.  
+RELU activation and Pooling.  
+Output shape: 14x14x6.  
 
-Layer 2: Convolutional. 
-Input shape: 14x14x6.
-RELU activation and Pooling and Flatten
-Output shape: 400.
+Layer 2: Convolutional.   
+Input shape: 14x14x6.  
+RELU activation and Pooling and Flatten.  
+Output shape: 400.  
 
-Layer 3: Fully Connected. 
-Input shape: 400.
-RELU activation 
-Output shape: 120.
+Layer 3: Fully Connected.   
+Input shape: 400.  
+RELU activation.  
+Output shape: 120.  
 
-Layer 4: Fully Connected. 
-Input shape: 120.
-RELU activation and Dropout with keep_prob 0.5
-Output shape: 84.
+Layer 4: Fully Connected.   
+Input shape: 120.  
+RELU activation and Dropout with keep_prob 0.5 . 
+Output shape: 84.  
 
-Layer 4: Fully Connected. 
-Input shape: 84.
-RELU activation and Dropout with keep_prob 0.5
-Output shape: 43.
+Layer 4: Fully Connected.   
+Input shape: 84.  
+RELU activation and Dropout with keep_prob 0.5 . 
+Output shape: 43.  
 
