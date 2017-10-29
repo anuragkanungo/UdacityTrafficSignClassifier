@@ -1,7 +1,7 @@
 ## Project: Build a Traffic Sign Recognition Program
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-This is the project submission for traffic sign classification problem in Udacity self driving nano degree program. The dataset contains 34799 training examples = 34799 and 12630 testing examples of image size [32*32*3].
+This is the project submission for traffic sign classification problem in Udacity self driving nano degree program. The dataset contains 34799 training examples = 34799 and 12630 testing examples of image size [32x32x3].
 
 The dataset histogram was visualized to analyze the density of different classes in the training data. 
 
