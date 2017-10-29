@@ -63,11 +63,13 @@ Additionally, I tried adding translation and rotation but that didn't help with 
 The trained model was run on 5 new images and it got 60% accuracy on those images. Although model didn't seem to be
 highly confident about those examples.
 
-For first example: 66.5% certain about ground truth.  
-For second example: 99% certain about some other class and almost 0% for ground truth . 
-For third example: 100% certain about ground truth . 
-For fourth example: 1% certain about ground truth only . 
-For fifth example: 82% certain about ground truth . 
+
+
+For first example: 66.5% certain about ground truth.   
+For second example: 99% certain about some other class and almost 0% for ground truth .   
+For third example: 100% certain about ground truth .   
+For fourth example: 1% certain about ground truth only .   
+For fifth example: 82% certain about ground truth .   
 
 
 
