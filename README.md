@@ -66,7 +66,6 @@ highly confident about those examples, mostly 99% confident on the prediction, e
 
 
 | Image        | Prediction           |
-| ------------- |:-------------:| -----:|
 |Double Curve |        Right-of-way at the next intersection|
 |Roundabout mandatory| Roundabout mandatory|
 |Yield|                Yield|
