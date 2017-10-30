@@ -60,16 +60,32 @@ Additionally, I tried adding translation and rotation but that didn't help with 
 
 ## Test on New Images
 
-The trained model was run on 5 new images and it got 60% accuracy on those images. Although model didn't seem to be
-highly confident about those examples.
+The trained model was run on 6 new images and it got 66.7% accuracy on those images. Although model did seem to be
+highly confident about those examples, mostly 99% confident on the prediction, either right or wrong.
+
+```
+Image: Prediction
+
+Double Curve,         Right-of-way at the next intersection
+Roundabout mandatory, Roundabout mandatory
+Yield,                Yield
+Children crossing,    Children crossing
+Speed limit (20km/h), Speed limit (30km/h)
+Yield,                Yield
+```
 
 
+The model was able to correctly guess 4 of the 6 traffic signs, which gives an accuracy of 66.7%.
+This isn't very close to the test set accuracy which is 92.4%, mostly because of missing image
+translation and rotation.
 
-For first example: 66.5% certain about ground truth.   
-For second example: 99% certain about some other class and almost 0% for ground truth .   
-For third example: 100% certain about ground truth .   
-For fourth example: 1% certain about ground truth only .   
-For fifth example: 82% certain about ground truth .   
+
+For first example: 99% certain about some other class and almost 0% for ground truth
+For second example: 100% certain about ground truth
+For third example: 100% certain about ground truth
+For fourth example: 77% certain about ground truth
+For fifth example: 99% certain about some other class and almost 0% for ground truth
+For sixth example: 100% certain about ground truth 
 
 
 
