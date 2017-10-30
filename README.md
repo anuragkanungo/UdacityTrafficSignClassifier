@@ -82,12 +82,15 @@ This isn't very close to the test set accuracy which is 92.4%, mostly because of
 translation and rotation.
 
 
-For first example: 99% certain about some other class and almost 0% for ground truth
-For second example: 100% certain about ground truth
-For third example: 100% certain about ground truth
-For fourth example: 77% certain about ground truth
-For fifth example: 99% certain about some other class and almost 0% for ground truth
-For sixth example: 100% certain about ground truth 
+## SoftMax
+
+
+For first example: 99% certain about some other class and almost 0% for ground truth .   
+For second example: 100% certain about ground truth .   
+For third example: 100% certain about ground truth .  
+For fourth example: 77% certain about ground truth .  
+For fifth example: 99% certain about some other class and almost 0% for ground truth .  
+For sixth example: 100% certain about ground truth .     
 
 
 
