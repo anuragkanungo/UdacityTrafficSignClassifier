@@ -73,7 +73,7 @@ Additionally I guess first and fifth images are hard to classifiy correctly beca
 taken at an angle and while training this particular model, I haven't augmented the data
 with rotation or translation.
 
-Fourth image might have some classification problem because of the green background
+Fourth image might have some classification problem because of the green background.   
 The model might not be highly confident about it being a children crossing, although it's kind of a
 unique and easily differentiable sign and the model could have learned that.
 
