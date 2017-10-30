@@ -63,16 +63,16 @@ Additionally, I tried adding translation and rotation but that didn't help with 
 The trained model was run on 6 new images and it got 66.7% accuracy on those images. Although model did seem to be
 highly confident about those examples, mostly 99% confident on the prediction, either right or wrong.
 
-```
-Image: Prediction
 
-Double Curve,         Right-of-way at the next intersection
-Roundabout mandatory, Roundabout mandatory
-Yield,                Yield
-Children crossing,    Children crossing
-Speed limit (20km/h), Speed limit (30km/h)
-Yield,                Yield
-```
+
+| Image        | Prediction           |
+| ------------- |:-------------:| -----:|
+|Double Curve |        Right-of-way at the next intersection|
+|Roundabout mandatory| Roundabout mandatory|
+|Yield|                Yield|
+|Children crossing|    Children crossing|
+|Speed limit (20km/h)| Speed limit (30km/h)|
+|Yield|                Yield|
 
 
 The model was able to correctly guess 4 of the 6 traffic signs, which gives an accuracy of 66.7%.
