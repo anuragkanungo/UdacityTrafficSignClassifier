@@ -63,8 +63,24 @@ Additionally, I tried adding translation and rotation but that didn't help with 
 The trained model was run on 6 new images and it got 66.7% accuracy on those images. Although model did seem to be
 highly confident about those examples, mostly 99% confident on the prediction, either right or wrong.
 
+Image visualazation in Ipython notebook.   
 
-## Predictions
+### Possible difficulties in classification
+The first image might be difficulty to classifiy because of background noise whereas
+last image can be classified easily as it has no background noise, converted from a png image.
+
+Additionally I guess first and fifth images are hard to classifiy correctly because they are
+taken at an angle and while training this particular model, I haven't augmented the data
+with rotation or translation.
+
+Fourth image might have some classification problem because of the green background
+The model might not be highly confident about it being a children crossing, although it's kind of a
+unique and easily differentiable sign and the model could have learned that.
+
+
+
+### Predictions
+
 
 | Image | Prediction |
 | ------------- | ------------- |
@@ -82,7 +98,7 @@ This isn't very close to the test set accuracy which is 92.4%, mostly because of
 translation and rotation.
 
 
-## SoftMax
+### SoftMax
 
 
 For first example: 99% certain about some other class and almost 0% for ground truth .   
