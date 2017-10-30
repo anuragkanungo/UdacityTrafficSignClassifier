@@ -65,13 +65,13 @@ highly confident about those examples, mostly 99% confident on the prediction, e
 
 
 
-| Image        | Prediction           |
-|Double Curve |        Right-of-way at the next intersection|
-|Roundabout mandatory| Roundabout mandatory|
-|Yield|                Yield|
-|Children crossing|    Children crossing|
-|Speed limit (20km/h)| Speed limit (30km/h)|
-|Yield|                Yield|
+| Image | Prediction |
+| Double Curve | Right-of-way at the next intersection|
+| Roundabout mandatory | Roundabout mandatory|
+| Yield | Yield|
+| Children crossing | Children crossing|
+| Speed limit (20km/h)| Speed limit (30km/h)|
+| Yield | Yield|
 
 
 The model was able to correctly guess 4 of the 6 traffic signs, which gives an accuracy of 66.7%.
